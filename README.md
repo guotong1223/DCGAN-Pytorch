@@ -22,5 +22,7 @@ parser.add_argument("--dataroot", type=str, default="../../data/your_datatset", 
 ```
 python dcgan_faces_tutorial.py
 ```
-##结果
+## 结果
 如下是使用所爬取到的动漫头像作为数据集训练的结果：
+
+![](https://github.com/lovepiano/DCGAN-Pytorch/blob/master/93200.png)
