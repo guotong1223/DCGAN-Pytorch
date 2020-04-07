@@ -1,8 +1,10 @@
 # DCGAN-Pytorch
 这是CDGAN使用Pytorch实现的代码
 ## 依赖
+```
 python 3.6
 pytorch 1.1
+```
 ## 训练方式
 1.下载数据集，解压后在当前目录下创建一个data目录，该目录下存放下载的数据集celeba，其目录结构如下所示：
 ```
