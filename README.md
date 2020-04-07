@@ -6,14 +6,16 @@ python 3.6
 pytorch 1.1
 ```
 ## 训练方式
-1.下载数据集，解压后在当前目录下创建一个data目录，该目录下存放下载的数据集celeba，其目录结构如下所示：
+1.下载数据集，解压后在当前目录下创建一个data目录，该目录下存放下载的数据集,本代码的结果基于网上爬取的动漫数据集，
+[下载链接](https://pan.baidu.com/s/1eSifHcA) 提取码：g5qa,
+其目录结构如下所示：
 ```
-/path/to/celeba
-    -> img_align_celeba
-        -> 188242.jpg
-        -> 173822.jpg
-        -> 284702.jpg
-        -> 537394.jpg
+/path/to/anime
+    -> faces
+        -> 000001.jpg
+        -> 000002.jpg
+        -> 000003.jpg
+        -> 000004.jpg
            ...
 ```
 输入图像的大小可以任意设定，但不宜过大，因为可能效果不好。之所以可以设定任意大小的输入图像，是因为本代码中有如下代码：
@@ -30,6 +32,5 @@ parser.add_argument("--dataroot", type=str, default="data/your_datatset", help="
 python dcgan_faces_tutorial.py
 ```
 ## 结果
-如下是使用所爬取到的动漫头像作为数据集训练的结果：
 
 ![](https://github.com/lovepiano/DCGAN-Pytorch/blob/master/93200.png)
