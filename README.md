@@ -16,6 +16,11 @@ pytorch 1.1
         -> 537394.jpg
            ...
 ```
+输入图像的大小可以任意设定，但不宜过大，因为可能效果不好。之所以可以设定任意大小的输入图像，是因为本代码中有如下代码：
+```
+ds_size = opt.img_size // 2 ** 4
+self.adv_layer = nn.Sequential(nn.Linear(128 * ds_size ** 2, 1), nn.Sigmoid())
+```
 2.然后修改代码中的数据目录：
 ```
 parser.add_argument("--dataroot", type=str, default="data/your_datatset", help="interval between image sampling")
