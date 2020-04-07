@@ -1,5 +1,5 @@
 # DCGAN-Pytorch
-这是CDGAN使用Pytorch实现的代码
+这是DCGAN使用Pytorch实现的代码
 ## 依赖
 ```
 python 3.6
