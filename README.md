@@ -1,6 +1,6 @@
 # DCGAN-Pytorch
 这是CDGAN使用Pytorch实现的代码
-##依赖
+## 依赖
 python 3.6
 pytorch 1.1
 ## 训练方式
@@ -16,7 +16,7 @@ pytorch 1.1
 ```
 2.然后修改代码中的数据目录：
 ```
-parser.add_argument("--dataroot", type=str, default="../../data/your_datatset", help="interval between image sampling")
+parser.add_argument("--dataroot", type=str, default="data/your_datatset", help="interval between image sampling")
 ```
 3.训练
 ```
