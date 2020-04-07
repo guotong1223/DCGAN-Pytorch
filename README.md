@@ -1,5 +1,7 @@
 # DCGAN-Pytorch
 这是DCGAN使用Pytorch实现的代码
+## DCGAN生成器结构
+![](https://github.com/lovepiano/DCGAN-Pytorch/blob/master/image.png)
 ## 依赖
 ```
 python 3.6
